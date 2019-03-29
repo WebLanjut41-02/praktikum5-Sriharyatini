@@ -1,40 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div class="container">
+<div class="row mt-3">
+
 <table>
 <form action="<?=base_url().'index.php/Siswa/update'?>" method="POST">
-		<td>NIS</td>
-		<td>:</td>
-		<td><input type="text" name="nis" value="<?=$r['nis']?>"></td>
-	</tr>
-	<tr>
-		<td>Nama  Lengkap</td>
+		<td>NAMA</td>
 		<td>:</td>
 		<td><input type="text" name="nama" value="<?=$r['nama']?>"></td>
 	</tr>
 	<tr>
-		<td>Tempat,Tanggal Lahir</td>
+		<td>NIM</td>
 		<td>:</td>
-		<td><input type="text" name="ttl" value="<?=$r['ttl']?>"></td>
+		<td><input type="text" name="nim" value="<?=$r['nim']?>"></td>
 	</tr>
 	<tr>
-		<td>Jenis Kelamin</td>
+		<td>Tempat,Tanggal lahir</td>
 		<td>:</td>
-		<td><input type="text" name="jk" value="<?=$r['jenis_kelamin']?>"></td>
+		<td><input type="text" name="tgl_lahir" value="<?=$r['tgl_lahir']?>"></td>
 	</tr>
 	<tr>
-		<td>Pendidikan</td>
+		<td>IPK</td>
 		<td>:</td>
-		<td><input type="text" name="pend" value="<?=$r['pend']?>"></td>
+		<td><input type="text" name="ipk" value="<?=$r['ipk']?>"></td>
 	</tr>
 	<tr>
-		<td>Nomor Telfon</td>
+		<td>KELAS</td>
 		<td>:</td>
-		<td><input type="text" name="telp" value="<?=$r['telp']?>"></td>
+		<td><input type="text" name="kelas" value="<?=$r['kelas']?>"></td>
 	</tr>
-	<tr>
-		<td>Alamat Lengkap</td>
-		<td>:</td>
-		<td><input type="text" name="alamat" value="<?=$r['alamat']?>"></td>
-	</tr>
-	<tr>
+<tr>
 		<td></td>
 		<td></td>
 		<td><input type="submit" name="submit" value="submit"></td>

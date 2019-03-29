@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-    <title>Data Constribbutor</title>
+    <title>DATA MAHASISWA</title>
   </head>
   <body>
 
@@ -25,10 +25,10 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php base_url();?>Siswa">Data Coonstributor</a>
+        <a class="nav-link" href="<?php base_url();?>Siswa"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php base_url();?>Siswa/insert">Regristrasi</a>
+        <a class="nav-link" href="<?php base_url();?>Siswa/insert">Masukan data</a>
       </li>
       <li class="nav-item">
         <a class=" " href="#" tabindex="-1" aria-disabled="true"></a>

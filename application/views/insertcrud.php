@@ -20,36 +20,28 @@
 	<div class="col-md-12">
 
 	<div class="form-group">
-	    <label for="nama">NIS</label>
-	    <input type="text" name="nis" class="form-control" id="nis" placeholder=" Masukan Nis ">
+	    <label for="nama">NAMA</label>
+	    <input type="text" name="nama" class="form-control" id="nama" placeholder=" Masukan Nama anda ">
 	</div>
 
 	<div class="form-group">
-	    <label for="nama">Nama Lengkap</label>
-	    <input type="text"  name="nama" class="form-control" id="nama" placeholder="Masukan Naman Lengkap ">
+	    <label for="nama">NIM</label>
+	    <input type="text"  name="nim" class="form-control" id="nim" placeholder="Masukan NIM anda ">
 	</div>
 
 	<div class="form-group">
 	    <label for="nama">Tempat, Tanggal Lahir</label>
-	    <input type="text"  name="ttl" class="form-control" id="ttl" placeholder="Masukan Tempat, Tanggal Lahir">
+	    <input type="text"  name="tgl_lahir" class="form-control" id="tgl_lahir" placeholder="Masukan Tempat, Tanggal Lahir">
 	</div>
 
 	<div class="form-group">
-	    <label for="nama">Jenis Kelamin</label>
-	    <input type="text"  name="jenis_kelamin" class="form-control" id="jenis_kelamin" placeholder="Masukan Jenis Kelamin">
+	    <label for="nama">IPK</label>
+	    <input type="text"  name="ipk" class="form-control" id="ipk" placeholder="IPK anda">
 	</div>
 
 	<div class="form-group">
-	    <label for="nama">Pendidikan</label>
-	    <input type="text"  name="pend" class="form-control" id="pend" placeholder="Masukan Data Pendidikan anda! Contohnya, SD/SMP/SMA/Kuliah">
-	</div>
-	<div class="form-group">
-	    <label for="nama">Nomor Telfon</label>
-	    <input type="text"  name="telp" class="form-control" id="telp" placeholder="Masukan Nomor Telfon Anda">
-	</div>
-	<div class="form-group">
-	    <label for="nama">Alamat Lengkap</label>
-	    <input type="text"  name="alamat" class="form-control" id="alamat" placeholder="Masukan Nama Lengkap">
+	    <label for="nama">KELAS</label>
+	    <input type="text"  name="kelas" class="form-control" id="kelas">
 	</div>
 	  <button type="submit" name="submit" value="submit" class="btn btn-primary" >Submit</button>
 </div>
